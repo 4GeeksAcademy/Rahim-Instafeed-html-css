@@ -1,0 +1,10 @@
+.post{
+    width: 500px;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+.post-content img{
+    width: 100%;
+}
