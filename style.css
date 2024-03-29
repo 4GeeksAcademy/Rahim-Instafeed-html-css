@@ -1,10 +1,29 @@
-.post{
-    width: 500px;
+body {
+  background-color: rgb(234, 227, 214);
 }
-.post-header{
-    display: flex;
-    justify-content: space-between;
+
+header {
+  text-align: center;
+  background-color: white;
 }
-.post-content img{
-    width: 100%;
+
+.post {
+  width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+
+  margin-top: 15px;
+}
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.post-content img {
+  width: 100%;
+}
+.post-caption{
+    padding: 10px;
 }
